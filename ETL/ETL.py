@@ -248,7 +248,7 @@ class ETL:
 
         try:
             hdfs = SparkHDFS(
-                host="gp-mis-dwh.pv.mts.ru",
+                host="host",
                 cluster="rnd-dwh",
                 spark=self.spark,
             ).check()
