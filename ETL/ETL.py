@@ -116,8 +116,8 @@ class ETL:
 
         try:
             target_conn = Greenplum(
-                host="beta-greenplum.bd-cloud.mts.ru",
-                user="nosovva",
+                host="smth",
+                user="user",
                 password="password",
                 database="core",
                 spark=self.spark,
