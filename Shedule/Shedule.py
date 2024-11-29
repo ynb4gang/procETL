@@ -53,10 +53,10 @@ Class Shedule:
         try:
             
             default_args = {
-                    "email": ["nosovva@mts.ru"],  # nosovva
+                    "email": ["ex@.ru"],
                     "email_on_failure": True,
                     'start_date': f"{str(self.start_date)}",
-                    "ssh_conn_id": "oka-analyze-en-001.krd.bd-cloud.mts.ru",
+                    "ssh_conn_id": "smth",
             }
 
             with DAG (
