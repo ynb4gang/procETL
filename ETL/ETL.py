@@ -90,8 +90,8 @@ class ETL:
 
         try:
             connection_source = Postgres(
-                host="gp-mis-dwh.pv.mts.ru",
-                user="nosovva",
+                host="smth",
+                user="user",
                 password="password",
                 database="dwh",
                 spark=self.spark,
